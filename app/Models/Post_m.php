@@ -9,5 +9,6 @@ class Post_m extends Model
     /**
      * mass assigment
      */
+    protected $table = 'posts';
     protected $guarded = [];
 }
